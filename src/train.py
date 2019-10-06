@@ -4,7 +4,7 @@ This provides a CLI for training a neural network for image recognition.
 
 Usage:
     >> python train.py -s . -d ./flowers -g -e 20
-    * -s : save checkpoint 
+    * -s . : save checkpoint here (".")
     * -d ./flowers : location of the data directory
     * -g : use GPU
     * -e 20 : use 20 epochs
